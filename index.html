@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <script defer src="script.js"></script>
+    <div class="container">
+        <div class="topRow">
+            <div class="location">
+                <div class="city">Firenze</div>
+                <div class="country">Italy</div>
+            </div>
+            <form>
+                <input type="search" id="query" name="q" placeholder="City ...">
+                <button id="searchBtn">generate your weather report</button>
+                <button id="switchBtn">switch units</button>
+            </form>
+        </div>
+        <div class="mainRow">
+            <div class="mainInfo">
+                <div class="temp">
+                    <div class="temperature">28</div>
+                    <div class="feelsLike">feels like : 20</div>
+                </div>
+                <div class="other">
+                    <div class="time">10PM</div>
+                    <div class="condition">condition : rainy</div>
+                </div>
+            </div>
+            <div class="forecast">
+                <div class="forecastTitle">forecast</div>
+                <div class="day">
+                    <div class="dayTitle" id="day1">Day 1</div>
+                    <div class="dayInfo">
+                        <div class="astro">
+                            <div id="sunrise1">Sunrise</div>
+                            <div id="sunset1">Sunset</div>
+                        </div>
+                        <div class="hl">
+                            <div id="low1">low</div>
+                            <div id="high1">high</div>
+                        </div>
+                        <div class="dayCond" id="cond1">condition</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="dayTitle" id="day2">Day 2</div>
+                    <div class="dayInfo">
+                        <div class="astro">
+                            <div id="sunrise2">Sunrise</div>
+                            <div id="sunset2">Sunset</div>
+                        </div>
+                        <div class="hl">
+                            <div id="low2">low</div>
+                            <div id="high2">high</div>
+                        </div>
+                        <div class="dayCond" id="cond2">condition</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="dayTitle" id="day3">Day 3</div>
+                    <div class="dayInfo">
+                        <div class="astro">
+                            <div id="sunrise3">Sunrise</div>
+                            <div id="sunset3">Sunset</div>
+                        </div>
+                        <div class="hl">
+                            <div id="low3">low</div>
+                            <div id="high3">high</div>
+                        </div>
+                        <div class="dayCond" id="cond3">condition</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottomRow">
+            <div class="widget" id="uvWidget">
+                <div class="title">uv index : </div>
+                <div class="uv data">1</div>
+            </div>
+            <div class="wind widget">
+                <div class="title">wind : </div>
+                <div class="windInfo" >
+                    <div class="windDeg windData">15 degrees</div>
+                    <div class="windDir windData">NE</div>
+                </div>
+                <div class="windSpeed windData">15 mph</div>
+            </div>
+            <div class="widget">
+                <div class="title">rain :</div>
+                <div class="rain data">0</div>
+            </div>
+            <div class="widget">
+                <div class="title">humidity :</div>
+                <div class="humidity data">20</div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

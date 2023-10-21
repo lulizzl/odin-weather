@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "typewriter";
+    src: url(./typewriter.ttf);
+}
+
+button {
+    font-family: typewriter;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    font-family: typewriter;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgb(214, 235, 253);
+    font-family: typewriter;
+}
+
+.dayTitle {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.windInfo {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.topRow {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 2;
+    padding: 15px;
+    width: 90%;
+    background-color: rgb(251, 248, 235);
+    border-radius: 25px;
+    border: solid;
+}
+
+.city {
+    font-size: 40px;
+    width: 40%;
+}
+
+.country {
+    font-size: 25px;
+    width: 60%;
+}
+
+form {
+    text-align: center;
+    flex-shrink: 1
+}
+
+.mainRow {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-grow: 6;
+    padding: 15px
+}
+
+.temp {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.other {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(251, 248, 235);
+    border-radius: 25px;
+    padding: 10px
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    height: 25%;
+    text-align: center;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    height: 35%;
+    text-align: center;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    height: 55%;
+    font-size: 90px;
+    
+}
+
+.feelsLike {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(102, 101, 101)
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 40%;
+    background-color: rgb(251, 248, 235);
+    padding: 15px;
+    gap: 10px;
+}
+
+.forecastTitle {
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    height: 20%;
+    display: flex;
+}
+
+.day {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 15px
+}
+
+.dayTitle {
+    text-align: center;
+}
+
+.dayInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bottomRow {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-grow: 3;
+    padding: 15px;
+}
+
+.data {
+    font-size: 30px
+}
+
+.windData {
+    font-size: 20px;
+}
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(251, 248, 235);
+    width: 20%;
+    border-radius: 25px;
+    border: solid;
+    align-items: center;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomRow .title {
+    color: rgb(102, 101, 101);
+    font-size: 20px
+    
+}
+
+.astro .hl {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 25%
+}
+
+.dayCond {
+    text-align: center;
+    width: 50%
+}
