@@ -34,7 +34,7 @@ const switchUnits = (function () {
 
     const makeTheSwitchForecast = () => {console.log('forecast')
     
-        fetch(`http://api.weatherapi.com/v1/forecast.json?key=aa3799e0f47d4927a2f65418231810&q=${city.value}&days=3&aqi=no&alerts=no`)
+        fetch(`https://api.weatherapi.com/v1/forecast.json?key=aa3799e0f47d4927a2f65418231810&q=${city.value}&days=3&aqi=no&alerts=no`)
         .then(function(response) {
             return response.json()
         })
@@ -75,7 +75,7 @@ const switchUnits = (function () {
     const makeTheSwitch = () => {
         console.log('hi')
 
-        fetch(`http://api.weatherapi.com/v1/current.json?key=aa3799e0f47d4927a2f65418231810&q=${city.value}`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=aa3799e0f47d4927a2f65418231810&q=${city.value}`)
         .then(function(response) {
             return response.json()
         })
@@ -111,7 +111,7 @@ const switchUnits = (function () {
 const getInfo = (function () {
 
     const getWeather = (city) => {
-        fetch(`http://api.weatherapi.com/v1/current.json?key=aa3799e0f47d4927a2f65418231810&q=${city}`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=aa3799e0f47d4927a2f65418231810&q=${city}`)
         .then(function(response) {
             return response.json()
         })
@@ -144,7 +144,7 @@ const getInfo = (function () {
     }
 
     const getForecast = (city) => {
-        fetch(`http://api.weatherapi.com/v1/forecast.json?key=aa3799e0f47d4927a2f65418231810&q=${city}&days=3&aqi=no&alerts=no`)
+        fetch(`https://api.weatherapi.com/v1/forecast.json?key=aa3799e0f47d4927a2f65418231810&q=${city}&days=3&aqi=no&alerts=no`)
         .then(function(response) {
             return response.json()
         })
